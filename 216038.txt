@@ -1,2 +1,90 @@
-ECHO is on.
-Петар Малиновски
+4.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git init
+Initialized empty Git repository in C:/Users/petar/Desktop/SI_2023_lab1_216038/.git/
+
+5.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git remote add orgin https://github.com/lupusruber/SI_2023_lab1_216038.git
+
+6.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git add README.md
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git commit -m "Initial commit"
+
+7.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>type nul > SILab1.javа
+C:\Users\petar\Desktop\SI_2023_lab1_216038>notepad SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git add SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git commit -m "Add java class"
+
+8.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git push -u origin master
+
+9.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git branch bug1
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git branch bug2
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git branch bug3
+
+10.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git checkout bug1
+
+11.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>notepad SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git add SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git commit -m "Fix wrong loop for reading"
+
+12.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git checkout bug2
+
+13.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>notepad SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git add SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git commit -m "Fix wrong condition in filterOddNumbers"
+
+14.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git checkout bug3
+
+15.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>notepad SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git add SILab1.java
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git commit SILab1.java
+
+16.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git push origin --all
+
+17.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git checkout master
+
+18.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git merge bug1
+
+19.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git push origin --all
+
+20.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git merge bug2
+
+21.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git push origin --all
+
+22.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git checkout bug3
+
+23.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git rebase master
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git push --force origin bug3
+
+24.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git checkout master
+
+25.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git merge bug3
+
+26.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git push origin --all
+
+27.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git log
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git add --all
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git commit -m "Final commit"
+
+28.
+C:\Users\petar\Desktop\SI_2023_lab1_216038>git push origin --all
