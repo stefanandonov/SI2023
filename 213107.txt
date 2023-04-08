@@ -1,0 +1,19 @@
+1. Napraveno remote repo na gh
+2. Git init + git remote add origin <repo url>
+3. Dodadeno readme i napraveno initial commit (git commit -a -m "Initial commit")
+4. Java file added i napraveno commit 
+5. git push -all
+6. git branch bug1, git branch bug2, git branch bug3
+7. git checkout bug1, fix bug and commit with git commit -a -m
+8. git checkout bug2, fix bug and commit with git commit -a -m
+9. git checkout bug3, fix bug and commit with git commit -a -m
+10. git push --all
+11. git merge bug1
+12. git merge bug2
+13. git push -all
+14. git checkout bug3
+15. git rebase master 
+16. git push --all
+17. git checkout master
+18. git merge bug3
+19. git push --all --force (bug3 forced)
