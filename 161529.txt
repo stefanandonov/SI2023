@@ -1,0 +1,48 @@
+﻿mkdir SI2023_Lab1_161529
+cd SI2023_Lab1_161529
+git init
+
+git remote add origin https://github.com/AndrejAngelovski/SI_2023_lab1_161529
+
+git remote -v
+
+git push -u origin master
+
+nano README.md
+git add README.md
+git commit -m "initial commit"
+
+git config --global credential.helper cache
+git config --global credential.helper 'cache –timeout=3600'
+
+git commit -m “added java class”
+
+git checkout master
+git checkout -b bug1
+git checkout -b bug2
+git checkout -b bug3
+
+git checkout bug1
+git commit -m "Fix wrong loop for reading"
+
+git checkout bug2
+git commit -m "Fix wrong condition in filterOddNumbers"
+
+git checkout bug3
+git commit -m "Fix method sumEvenNumbers"
+
+git push -u origin master
+
+git checkout master
+git merge bug1
+
+git push origin master
+
+git merge bug2
+git push origin master
+
+git checkout bug3
+git rebase bug3
+
+git rebase master
+git merge bug3
